@@ -2,22 +2,24 @@
 
 The `add()` function in `rest_parameters.js` adds two numbers together.
 
-This is fine... but what if we wanted to add any number of arguments? 🤔
+This is fine... but what if we wanted to add *any amount* of numbers together? 🤔
 
-If you run this file using:
+If you run the test file using:
 
-                node rest_parameters.js
+                npm test rest_parameters.test.js
 
-You'll notice that numbers 3, 4 and 5 are getting ignored.
+You'll notice the second test fails:
 
-Using Rest Parameters and some kind of forLoop (your choice!), refactor this function so that it can add together any
+```JavaScript
+expect(add(1, 2, 3, 4, 5)).toBe(15);
+```
 
-number of arguments and fix the failing test.
+The function only takes two parameters, so in this test numbers 3, 4 and 5 are getting ignored! 
 
-To run the tests:
+Using Rest Parameters and some kind of forLoop (your choice!), refactor this function so that it can add together *any number* of arguments and fix the failing test.
 
-            npm test rest_parameters.test.js
+👉 Hint: make sure you're in the correct folder before running these commands. You will also need to `console.log()` your function to see any output.
 
-Hint: make sure you're in the correct folder before running these commands. You will also need to `console.log()` your function to see any output.
+👉 Hint: If you get stuck, use the MDN documentation to help you: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
 
 Good luck! 🙌
