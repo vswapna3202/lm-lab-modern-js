@@ -14,7 +14,13 @@ You'll notice that we can access the value of `i` inside _and outside_ of the fo
 
 👉 Call the function count() and run `node let_vs_var.js` to see what gets printed to the console!
 
-...
+0 inside the forLoop
+1 inside the forLoop
+2 inside the forLoop
+3 inside the forLoop
+4 inside the forLoop
+5 outside the forLoop
+Not today, pal! 
 
 Well, that's interesting! 😯
 
