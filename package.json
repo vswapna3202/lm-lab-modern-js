@@ -2,8 +2,8 @@
 	"name": "modern_js",
 	"version": "1.0.0",
 	"description": "In session refactoring exercise",
-	"scripts": {
-		"test": "jest"
+	"scripts": {		
+		"test": "jest --watchAll"
 	},
 	"author": "Tech Returners",
 	"license": "MIT",
@@ -13,6 +13,7 @@
 		"@babel/preset-env": "^7.20.2",
 		"@typescript-eslint/eslint-plugin": "^6.7.4",
 		"@typescript-eslint/parser": "^6.7.4",
+		"babel-cli": "^6.26.0",
 		"babel-jest": "^29.3.1",
 		"eslint": "^8.51.0",
 		"eslint-plugin-react": "^7.33.2",
